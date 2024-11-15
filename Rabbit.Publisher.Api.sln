@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Publisher.Api", "Rabbit.Publisher.Api\Rabbit.Publisher.Api.csproj", "{20EF20B2-C419-4DB6-866F-DEDF7D679E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Consumer", "Rabbit.Consumer\Rabbit.Consumer.csproj", "{3C58EC21-3865-4214-8680-7B6BEDA1A11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Model", "Rabbit.Model\Rabbit.Model.csproj", "{FC88124F-55A3-40E5-86BA-380CD590C39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Services", "Rabbit.Services\Rabbit.Services.csproj", "{604A58AF-5BA2-4C46-8F89-9E92AC216C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Repositories", "Rabbit.repositories\Rabbit.Repositories.csproj", "{81304616-79D7-44D6-951F-CD96E2318B1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INFO", "INFO", "{ECDAFDEA-32F8-4175-A4E2-ECAEC4E656AE}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20EF20B2-C419-4DB6-866F-DEDF7D679E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EF20B2-C419-4DB6-866F-DEDF7D679E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EF20B2-C419-4DB6-866F-DEDF7D679E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EF20B2-C419-4DB6-866F-DEDF7D679E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C58EC21-3865-4214-8680-7B6BEDA1A11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C58EC21-3865-4214-8680-7B6BEDA1A11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C58EC21-3865-4214-8680-7B6BEDA1A11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C58EC21-3865-4214-8680-7B6BEDA1A11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC88124F-55A3-40E5-86BA-380CD590C39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC88124F-55A3-40E5-86BA-380CD590C39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC88124F-55A3-40E5-86BA-380CD590C39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC88124F-55A3-40E5-86BA-380CD590C39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604A58AF-5BA2-4C46-8F89-9E92AC216C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604A58AF-5BA2-4C46-8F89-9E92AC216C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604A58AF-5BA2-4C46-8F89-9E92AC216C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604A58AF-5BA2-4C46-8F89-9E92AC216C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81304616-79D7-44D6-951F-CD96E2318B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81304616-79D7-44D6-951F-CD96E2318B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81304616-79D7-44D6-951F-CD96E2318B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81304616-79D7-44D6-951F-CD96E2318B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02815400-1026-4949-9862-2D9026FA50CF}
+	EndGlobalSection
+EndGlobal
